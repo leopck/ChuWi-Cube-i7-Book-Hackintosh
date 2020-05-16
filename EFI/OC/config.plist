@@ -338,70 +338,6 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooGPIO</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2CServices</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooInput</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>BundlePath</key>
-				<string>VoodooI2C.kext</string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2C</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>BundlePath</key>
 				<string>HoRNDIS.kext</string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/HoRNDIS</string>
@@ -418,9 +354,9 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>BundlePath</key>
-				<string>VoodooI2CHID.kext</string>
+				<string>USBInjectAll.kext</string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2CHID</string>
+				<string>Contents/MacOS/USBInjectAll</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
