@@ -28,4 +28,4 @@ It's currently work in progress.
 - micro SD slot
 - Built-in Audio Line out
 - Built-in motor for vibration
-- Built-in 
+- Built-in accelerometer for auto-rotation
