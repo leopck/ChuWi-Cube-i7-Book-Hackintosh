@@ -23,6 +23,7 @@ It's currently work in progress.
 - Power management for battery detection (Right now it detects it as AC powered not battery powered)
 - Built-in Front Camera
 - Built-in Back Camera
+- The capacitive Home Button on the touchscreen (Windows logo)
 
 ## What I haven't tested:
 - micro SD slot
