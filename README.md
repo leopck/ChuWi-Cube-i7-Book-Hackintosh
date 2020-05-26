@@ -13,10 +13,11 @@ It's currently work in progress.
 - Foresee 64GB SSD is detected
 - Power Button is working
 - Volume Rocker button is working for volume
+- ChuWi Docking Station (Keyboard + USB 2.0 on the dock) [Worked after integrating the USBxHCIInjection kext]
 
 ## What does not work:
 - Touchscreen
-- ChuWi Docking Station (Touchpad + Keyboard + USB 2.0 on the dock)
+- ChuWi Docking Station (Touchpad)
 - Intel WiFi
 - Built-in Speaker
 - Power management for battery detection (Right now it detects it as AC powered not battery powered)
