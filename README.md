@@ -30,3 +30,23 @@ It's currently work in progress.
 - Built-in Audio Line out
 - Built-in motor for vibration
 - Built-in accelerometer for auto-rotation
+
+## Performance
+What's being evaluated right now:
+- Youtube video playback on browser (namely Chrome since it's cross-platform so I can compare with Linux and Windows)
+-- AV1
+-- VP9
+-- H264
+- GUI screen tearing on rapid dragging left and right (to detect for screen tearing)
+- Hardware acceleration for Video Playback
+- GUI smooth-ness during scrolling on large websites
+- I/O performance, namely USB gaming mouse
+- Multiple apps launching and being used at the same time
+- Temperature of device on high load and low load
+- Battery performance on high load and low load
+- WiFi performance
+- BT performance
+- Docker performance
+- File transfer performance
+- Loading multiple tabs on Chrome websites performance
+Stress testing mainly.
