@@ -4,7 +4,8 @@ Hackintosh with OpenCore, on ChuWi Cube i7 Book
 It's currently work in progress.
 
 ## What works:
-- Intel Bluetooth
+- Intel WiFi (Thanks to @zxystd!)
+- Intel Bluetooth (After adding the Intel WiFi, audio over BT became stuttery https://github.com/zxystd/itlwm/issues/85)
 - Display
 - Intel Integrated GPU HD515
 - micro USB 3.0 Type B
@@ -18,7 +19,6 @@ It's currently work in progress.
 ## What does not work:
 - Touchscreen
 - ChuWi Docking Station (Touchpad)
-- Intel WiFi
 - Built-in Speaker
 - Power management for battery detection (Right now it detects it as AC powered not battery powered)
 - Built-in Front Camera
