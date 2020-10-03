@@ -15,6 +15,7 @@ It's currently work in progress.
 - Power Button is working
 - Volume Rocker button is working for volume
 - ChuWi Docking Station (Keyboard + USB 2.0 on the dock) [Worked after integrating the USBxHCIInjection kext]
+- Built-in Audio Line out
 
 ## What does not work:
 - Touchscreen
@@ -24,10 +25,7 @@ It's currently work in progress.
 - Built-in Front Camera
 - Built-in Back Camera
 - The capacitive Home Button on the touchscreen (Windows logo)
-
-## What I haven't tested:
 - micro SD slot
-- Built-in Audio Line out
 - Built-in motor for vibration
 - Built-in accelerometer for auto-rotation
 
