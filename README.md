@@ -3,6 +3,11 @@ Hackintosh with OpenCore, on ChuWi Cube i7 Book
 
 It's currently work in progress.
 
+## Hackintosh Config
+
+- OpenCore 0.5.8
+- Mac Catalina 10.15
+
 ## BIOS
 ```
 Press DEL to enter into BIOS
