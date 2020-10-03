@@ -5,8 +5,8 @@ It's currently work in progress.
 
 ## What works:
 - Intel WiFi (Thanks to @zxystd!)
-- Intel Bluetooth (After adding the Intel WiFi, audio over BT became stuttery https://github.com/zxystd/itlwm/issues/85)
-- Display
+- Intel Bluetooth (Fixed in latest itlwm)
+- Built-in Display
 - Intel Integrated GPU HD515
 - micro USB 3.0 Type B
 - USB type C
