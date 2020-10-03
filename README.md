@@ -24,7 +24,7 @@ Not sure if I needed these, I cannot recall my BIOS changes that I did.
 ```
 ## What works:
 - Intel WiFi (Thanks to @zxystd!)
-- Intel Bluetooth (Fixed in latest itlwm)
+- Intel Bluetooth ~~(Fixed in latest itlwm)~~ (Broken after I brought the SSDT.aml and DPDT.aml)
 - Built-in Display
 - Intel Integrated GPU HD515
 - micro USB 3.0 Type B
@@ -35,17 +35,17 @@ Not sure if I needed these, I cannot recall my BIOS changes that I did.
 - Volume Rocker button is working for volume
 - ChuWi Docking Station (Keyboard + USB 2.0 on the dock) [Worked after integrating the USBxHCIInjection kext]
 - Built-in Audio Line out
+- Battery Indicator ~~(Right now it detects it as AC powered not battery powered)~~ (Fixed with SSDT.aml and DPDT.aml and SMCBatteryManager.kext)
+- Built-in motor for vibration
+- The capacitive Home Button on the touchscreen (Windows logo)
 
 ## What does not work:
 - Touchscreen
 - ChuWi Docking Station (Touchpad)
 - Built-in Speaker
-- Power management for battery detection (Right now it detects it as AC powered not battery powered)
 - Built-in Front Camera
 - Built-in Back Camera
-- The capacitive Home Button on the touchscreen (Windows logo)
 - micro SD slot
-- Built-in motor for vibration
 - Built-in accelerometer for auto-rotation
 
 ## Performance
@@ -74,9 +74,12 @@ Stress testing mainly.
 
 Updated to OpenCore 0.6.1
 Added Intel WiFi AirportItlwm_v1.0_Beta_Catalina.kext.zip v1.1.0 Stable: https://github.com/OpenIntelWireless/itlwm/releases/tag/v1.1.0
+Fixed Battery indicator but broke Bluetooth
+Intel Bluetooth is broken (regression)
 
 ## v0.1.1
 
 Enabled Intel WiFi with HeliPort
+Intel Bluetooth working
 OpenCore 0.5.8
 Catalina 10.15.x
