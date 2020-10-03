@@ -5,7 +5,7 @@ It's currently work in progress.
 
 ## Hackintosh Config
 
-- OpenCore 0.5.8
+- OpenCore 0.6.1
 - Mac Catalina 10.15
 
 ## BIOS
@@ -67,3 +67,16 @@ What's being evaluated right now:
 - File transfer performance
 - Loading multiple tabs on Chrome websites performance
 Stress testing mainly.
+
+# Release Note
+
+## v0.1.2
+
+Updated to OpenCore 0.6.1
+Added Intel WiFi AirportItlwm_v1.0_Beta_Catalina.kext.zip v1.1.0 Stable: https://github.com/OpenIntelWireless/itlwm/releases/tag/v1.1.0
+
+## v0.1.1
+
+Enabled Intel WiFi with HeliPort
+OpenCore 0.5.8
+Catalina 10.15.x
