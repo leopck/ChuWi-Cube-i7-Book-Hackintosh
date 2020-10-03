@@ -4,6 +4,7 @@ Hackintosh with OpenCore, on ChuWi Cube i7 Book
 It's currently work in progress.
 
 ## BIOS
+```
 Press DEL to enter into BIOS
 Chipset -> System Agent (SA) Configuration -> VT-d -> Disabled
 Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> DVMT Pre-Allocated -> 128M
@@ -15,7 +16,7 @@ Not sure if I needed these, I cannot recall my BIOS changes that I did.
 //Advanced -> CPU Configuration -> Execute Disable Bit -> Enabled
 //Advanced -> CPU Configuration -> Intel Virtualization Technology -> Disabled
 //Advanced -> CPU Configuration -> CFG lock-> Disabled
-
+```
 ## What works:
 - Intel WiFi (Thanks to @zxystd!)
 - Intel Bluetooth (Fixed in latest itlwm)
