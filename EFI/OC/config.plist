@@ -32,6 +32,22 @@
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>DSDT.aml</string>
+				<key>Path</key>
+				<string>DSDT.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT.aml</string>
+				<key>Path</key>
+				<string>SSDT.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -411,18 +427,82 @@
 			<dict>
 				<key>Comment</key>
 				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>MaxKernel</key>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/itlwm</string>
 				<key>BundlePath</key>
-				<string>itlwm.kext</string>
+				<string>AirportItlwm.kext</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>SMCBatteryManager.kext</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>SMCLightSensor.kext</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCLightSensor</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>SMCProcessor.kext</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCProcessor</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -571,8 +651,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -650,18 +729,18 @@
 		<key>Tools</key>
 		<array>
 			<dict>
-				<key>Comment</key>
-				<string>OpenShell.efi</string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
 				<key>Name</key>
+				<string>OpenShell.efi</string>
+				<key>Comment</key>
 				<string>OpenShell.efi</string>
 				<key>Enabled</key>
 				<true/>
-				<key>Arguments</key>
-				<string></string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
-				<key>Auxiliary</key>
-				<false/>
 			</dict>
 		</array>
 	</dict>
