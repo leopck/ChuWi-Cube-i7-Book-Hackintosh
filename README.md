@@ -50,6 +50,7 @@ Not sure if I needed these, I cannot recall my BIOS changes that I did.
 
 ## Performance
 What's being evaluated right now:
+```
 - Youtube video playback on browser (namely Chrome since it's cross-platform so I can compare with Linux and Windows)
 -- AV1
 -- VP9
@@ -67,9 +68,9 @@ What's being evaluated right now:
 - File transfer performance
 - Loading multiple tabs on Chrome websites performance
 Stress testing mainly.
-
+```
 # Release Note
-
+```
 ## v0.1.2
 
 Updated to OpenCore 0.6.1
@@ -83,3 +84,4 @@ Enabled Intel WiFi with HeliPort
 Intel Bluetooth working
 OpenCore 0.5.8
 Catalina 10.15.x
+```
