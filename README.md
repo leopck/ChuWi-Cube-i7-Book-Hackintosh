@@ -22,7 +22,7 @@ Boot > Fast Boot > Disabled
 Security > Secure Boot Menu > Secure Boot > Disabled
 Advanced > CPU Configuration > CFG lock > Disabled
 Advanced > CPU Configuration > SGX > Disabled
-EHCI/XHCI Hand-off > Enable
+Advanced > USB Configuration > XHCI Hand-off > Enabled
 Save & Exit -> Save Changes and Reset
 
 Total list of things:
