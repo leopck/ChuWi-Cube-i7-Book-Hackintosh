@@ -8,19 +8,45 @@ It's currently work in progress.
 - OpenCore 0.6.1
 - Mac Catalina 10.15
 
+## Getting Started with Catalina (gibMacOS) on Windows
+
+Youtube tutorial: https://www.youtube.com/watch?v=6KGuINOyHh0
+
 ## BIOS
 ```
 Press DEL to enter into BIOS
 Chipset -> System Agent (SA) Configuration -> VT-d -> Disabled
 Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> DVMT Pre-Allocated -> 128M
 Boot -> Bootup NumLock State -> Off
+Boot > Fast Boot > Disabled
+Security > Secure Boot Menu > Secure Boot > Disabled
+Advanced > CPU Configuration > CFG lock > Disabled
+Advanced > CPU Configuration > SGX > Disabled
+EHCI/XHCI Hand-off > Enable
 Save & Exit -> Save Changes and Reset
 
-Not sure if I needed these, I cannot recall my BIOS changes that I did.
-//Advanced -> CPU Configuration -> Limit CPUID Maximum -> Disabled
-//Advanced -> CPU Configuration -> Execute Disable Bit -> Enabled
-//Advanced -> CPU Configuration -> Intel Virtualization Technology -> Disabled
-//Advanced -> CPU Configuration -> CFG lock-> Disabled
+Total list of things:
+https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#intel-bios-settings.
+Disable
+Fast Boot
+Secure Boot
+Serial/COM Port
+Parallel Port
+VT-d (can be enabled if you set DisableIoMapper to YES)
+CSM
+Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
+Intel SGX
+Intel Platform Trust
+CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleXcpmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
+#Enable
+VT-x
+Above 4G decoding
+Hyper-Threading
+Execute Disable Bit
+EHCI/XHCI Hand-off
+OS type: Windows 8.1/10 UEFI Mode
+DVMT Pre-Allocated(iGPU Memory): 64MB
+SATA Mode: AHCI
 ```
 ## What works:
 - Intel WiFi (Thanks to @zxystd!)
